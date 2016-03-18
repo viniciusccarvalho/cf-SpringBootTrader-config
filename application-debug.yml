@@ -1,0 +1,12 @@
+logging:
+  level:
+     io:
+        pivotal: DEBUG
+     com:
+        netflix: DEBUG
+     org:
+        springframework:
+           web: DEBUG
+           cloud: 
+             sleuth:
+               log: WARN
